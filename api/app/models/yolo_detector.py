@@ -114,8 +114,12 @@ class YOLODetector:
 
             color = self.class_colors.get(cls, "red")
 
+            img_w, img_h = image.size
+            scale = max(img_w, img_h) / 1000  # коэффициент масштабирования
+            line_width = max(2, int(6 * scale))  # минимальная толщина = 2 px
+
             # Рисуем рамку
-            draw.rectangle([x1, y1, x2, y2], outline=color, width=15)
+            draw.rectangle([x1, y1, x2, y2], outline=color, width=line_width)
 
         img_with_boxes.save(output_path)
 
