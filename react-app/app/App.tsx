@@ -28,6 +28,19 @@ const CLASS_MAP: Record<string, string> = {
   'Oil_can_opener': 'Открывашка для банок с маслом'
 };
 
+const COLOR_MAP: Record<string, string> = {
+  "screwdriver_1": "blue",
+  "screwdriver_2": "green",
+  "Offset_Phillips": "orange",
+  "Side_cutters": "purple",
+  "Shernica": "pink",
+  "Safety_pliers": "cyan",
+  "Pliers": "yellow",
+  "Rotary_wheel": "brown",
+  "Open_end_wrench": "lime",
+  "Oil_can_opener": "magenta",
+  "Adjustable_wrench": "teal"
+};
 const allClasses = Object.keys(CLASS_MAP);
 const API = "http://localhost:8000";
 
@@ -239,6 +252,23 @@ export default function App() {
               </button>
             </div>
 
+            {/* Легенда классов и цветов (фиксированные цвета) */}
+            <div className="mb-6">
+              <h3 className="font-semibold text-gray-800 text-sm mb-2">Легенда цветов по классам:</h3>
+              <div className="mt-2 text-xs text-gray-500">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-1 mt-1">
+                  {allClasses.map((c, i) => {
+                    const color = COLOR_MAP[c] || '#e5e7eb';
+                    return (
+                      <li key={c} className="flex items-center gap-2">
+                        <span className="inline-block w-4 h-4 rounded border border-gray-400" style={{ background: color }}></span>
+                        <span className="text-gray-700">{i + 1}. {CLASS_MAP[c] || c}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </div>
             <div className="space-y-5">
               {displayItems.map((it, idx) => {
                 const img = resolveImageUrl(API, it);
