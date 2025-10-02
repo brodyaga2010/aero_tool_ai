@@ -1,4 +1,4 @@
-const API = "https://localhost:443/api";
+const API = "/api";
 
 export async function uploadSingle(file: File): Promise<any> {
   const fd = new FormData();
