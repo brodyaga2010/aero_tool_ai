@@ -15,6 +15,7 @@ services:
       - api
     networks:
       - tooltrack-net
+    restart: always
 
   api:
     build:
@@ -24,6 +25,7 @@ services:
       - "8000"
     networks:
       - tooltrack-net
+    restart: always
 
 networks:
   tooltrack-net:
