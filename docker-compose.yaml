@@ -3,8 +3,8 @@ version: '3.8'
 services:
   nginx:
     build:
-      context: .
-      dockerfile: nginx/Dockerfile
+      context: ./react-app
+      dockerfile: Dockerfile
     ports:
       - "443:443"
       - "80:80"

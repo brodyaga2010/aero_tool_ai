@@ -29,7 +29,7 @@ const CLASS_MAP: Record<string, string> = {
 };
 
 const allClasses = Object.keys(CLASS_MAP);
-const API = "http://localhost:8000";
+const API = "https://localhost:443/api";
 
 export default function App() {
   const [mode, setMode] = useState<string | null>(null);
