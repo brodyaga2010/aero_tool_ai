@@ -14,7 +14,7 @@ function resolveImageUrl(API, item) {
 }
 
 export default function ResultsPage({ results }) {
-  const API = "/api";
+  const API = "http://localhost:8000";
   const navigate = useNavigate();
 
   if (!results) {

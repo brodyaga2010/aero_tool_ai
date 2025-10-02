@@ -21,7 +21,11 @@ import zipfile
 from .models.yolo_detector import YOLODetector
 from .config import Settings
 
-app = FastAPI(title="Tool Detection API", version="1.0.0")
+app = FastAPI(
+    title="Aero Tool AI API",
+    description="API для детектирования объектов на изображениях с использованием моделей YOLO",
+    version="1.0.0",
+)
 
 # CORS settings
 app.add_middleware(
@@ -43,13 +47,18 @@ detector = YOLODetector(
     confidence_threshold=settings.confidence_threshold
 )
 
-@app.get("/")
+
+@app.get("/", summary="Проверка работоспособности API")
 async def read_root():
     return {"status": "ok", "message": "Tool Detection API is running"}
 
-@app.post("/detect/single")
+@app.post("/detect/single", summary="Анализ одного изображения")
 async def detect_single_image(file: UploadFile = File(...)):
-    """Endpoint для обработки одного изображения"""
+    """
+    Анализ одного изображения с помощью моделей YOLO.
+    
+    - **file**: Загружаемое изображение в формате JPG, PNG или WEBP
+    """
     if not file or not file.filename:
         raise HTTPException(status_code=400, detail="No file provided")
     
@@ -67,9 +76,13 @@ async def detect_single_image(file: UploadFile = File(...)):
     finally:
         os.unlink(temp_path)
 
-@app.post("/detect/multiple")
+@app.post("/detect/multiple", summary="Анализ нескольких изображений")
 async def detect_multiple_images(files: List[UploadFile] = File(...)):
-    """Endpoint для обработки нескольких изображений"""
+    """
+    Анализ нескольких изображений одновременно.
+    
+    - **files**: Список загружаемых изображений
+    """
     if not files:
         raise HTTPException(status_code=400, detail="No files provided")
     
@@ -135,15 +148,20 @@ async def detect_from_archive(file: UploadFile = File(...)):
     finally:
         shutil.rmtree(temp_dir)
 
-@app.get("/settings")
+@app.get("/settings", summary="Получение текущих настроек")
 async def get_settings():
     """Получить текущие настройки"""
     return {
         "confidence_threshold": settings.confidence_threshold
     }
 
-@app.post("/settings")
+@app.post("/settings", summary="Обновление настроек")
 async def update_settings(new_settings: Settings):
+    """
+    Обновление порога уверенности для моделей.
+    
+    - **settings**: Объект с параметром confidence_threshold (значение от 0 до 1)
+    """
     """Обновить настройки"""
     settings.confidence_threshold = new_settings.confidence_threshold
     detector.update_confidence_threshold(new_settings.confidence_threshold)

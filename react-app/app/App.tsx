@@ -29,7 +29,7 @@ const CLASS_MAP: Record<string, string> = {
 };
 
 const allClasses = Object.keys(CLASS_MAP);
-const API = "/api";
+const API = "http://localhost:8000";
 
 export default function App() {
   const [mode, setMode] = useState<string | null>(null);
@@ -71,15 +71,15 @@ export default function App() {
         }
       } else if (mode === "archive") {
         const data = await uploadArchive(files[0]);
-        let items = [];
-        if (Array.isArray(data)) items = data;
-        else if (Array.isArray(data.results)) items = data.results;
-        else if (data.result) items = Array.isArray(data.result) ? data.result : [data.result];
-        else items = [data];
-        setResults(items.map((item: any, idx: number) => ({
-          filename: `archive_item_${idx}`,
-          result: item
-        })));
+        // Сервер возвращает { results: [ { filename, result }, ... ] }
+        if (data && Array.isArray(data.results)) {
+          setResults(data.results); // уже в нужном формате!
+        } else {
+          // На случай, если сервер вернул что-то неожиданное
+          console.warn("Unexpected archive response format:", data);
+          setResults([]);
+          alert("Неожиданный формат ответа от сервера");
+        }
       }
     } catch (e) {
       console.error(e);
@@ -260,11 +260,11 @@ export default function App() {
                             {it.original_name || `Файл ${idx + 1}`}
                           </h3>
                           {img ? (
-                            <div className="border rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center">
+                            <div className="border rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center group">
                               <img
                                 src={img}
                                 alt={it.original_name || `result-${idx}`}
-                                className="max-h-64 w-full object-contain"
+                                className="max-h-96 w-full object-contain transition-transform duration-300 group-hover:scale-110 cursor-pointer"
                               />
                             </div>
                           ) : (
@@ -273,7 +273,6 @@ export default function App() {
                             </div>
                           )}
                         </div>
-
                         <div className="flex-1">
                           <h4 className="font-semibold text-gray-900 text-sm mb-2">Инструменты</h4>
                           <ul className="space-y-1">
