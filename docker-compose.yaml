@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl/:/etc/nginx/ssl/:ro  # (Опционально) SSL-сертификаты
+    depends_on:
+      - api
+    networks:
+      - tooltrack-net
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    expose:
+      - "8000"
+    networks:
+      - tooltrack-net
+
+networks:
+  tooltrack-net:
+    driver: bridge
