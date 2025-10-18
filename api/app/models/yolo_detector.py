@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Dict, Any
 from datetime import datetime
 import asyncio
+from app.models.merger import merge_results
 
 class YOLODetector:
     def __init__(self, model_path1: str, model_path2: str, confidence_threshold: float = 0.5):
@@ -59,30 +60,7 @@ class YOLODetector:
             *[self._run_model(model, image) for model in self.models]
         )
 
-        all_detections = []
-
-        # Собираем результаты с обеих моделей
-        for model, results in zip(self.models, results_list):
-            result = results[0]
-            for box in result.boxes:
-                x1, y1, x2, y2 = box.xyxy[0].tolist()
-                confidence = float(box.conf[0])
-                class_id = int(box.cls[0])
-                class_name = model.names[class_id]
-
-                if confidence >= self.confidence_threshold:
-                    all_detections.append({
-                        "bbox": [x1, y1, x2, y2],
-                        "confidence": confidence,
-                        "class": class_name,
-                    })
-
-        # Группируем по классу → выбираем лучший bbox
-        final_detections = {}
-        for det in all_detections:
-            cls = det["class"]
-            if cls not in final_detections or det["confidence"] > final_detections[cls]["confidence"]:
-                final_detections[cls] = det
+        final_detections = merge_results(results_list[0], results_list[1], self.models[0].names, self.models[1].names)
 
         detections = []
         for det in final_detections.values():
