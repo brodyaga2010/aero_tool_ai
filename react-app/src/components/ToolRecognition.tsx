@@ -464,17 +464,17 @@ export const ToolRecognition = ({}: {}) => {
 
     switch (endpoint) {
       case "single":
-        apiEndpoint = "http://192.168.193.130:8000/api/recognize/single";
+        apiEndpoint = "/apiml/recognize/single";
         break;
       case "multiple":
-        apiEndpoint = "http://192.168.193.130:8000/api/recognize/multiple";
+        apiEndpoint = "/apiml/recognize/multiple";
         setProcessingProgress({
           current: 0,
           total: formData.getAll("files").length,
         });
         break;
       case "archive":
-        apiEndpoint = "http://192.168.193.130:8000/api/recognize/archive";
+        apiEndpoint = "/apiml/recognize/archive";
         break;
     }
 

@@ -26,7 +26,7 @@ const CLASS_MAP = {
 };
 
 // Базовый URL API
-const API_BASE_URL = 'http://192.168.193.130:8001';
+const API_BASE_URL = '/api';
 
 // Хук для загрузки изображения с сервера по image_id
 const useImageLoader = (imageId: string | null) => {
@@ -45,7 +45,7 @@ const useImageLoader = (imageId: string | null) => {
         setLoading(true);
         setError(null);
         
-        const response = await fetch(`${API_BASE_URL}/api/images/${imageId}`);
+        const response = await fetch(`${API_BASE_URL}/images/${imageId}`);
         
         if (!response.ok) {
           throw new Error(`Ошибка загрузки изображения: ${response.status}`);
@@ -114,7 +114,7 @@ const useRecognitionHistory = () => {
     const fetchHistory = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`${API_BASE_URL}/api/history`);
+        const response = await fetch(`${API_BASE_URL}/history`);
         
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
@@ -143,7 +143,7 @@ const useHistoryStatistics = () => {
     const fetchStatistics = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`${API_BASE_URL}/api/statistics/history`);
+        const response = await fetch(`${API_BASE_URL}/statistics/history`);
         
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
@@ -178,7 +178,7 @@ const useOperationDetails = (operationId: string | null) => {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch(`${API_BASE_URL}/api/history/${operationId}`);
+        const response = await fetch(`${API_BASE_URL}/history/${operationId}`);
         
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
