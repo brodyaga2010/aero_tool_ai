@@ -10,7 +10,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./nginx/ssl/:/etc/nginx/ssl/:ro  # (Опционально) SSL-сертификаты
+      - ./nginx/ssl/:/etc/nginx/ssl/:ro 
     depends_on:
       - api
     networks:
@@ -23,6 +23,8 @@ services:
       dockerfile: Dockerfile
     expose:
       - "8000"
+    ports:
+      - "8000:8000"
     networks:
       - tooltrack-net
     restart: always

@@ -110,7 +110,7 @@ async def detect_multiple_images(files: List[UploadFile] = File(...)):
             
     return JSONResponse(content={"results": results})
 
-@app.post("/detect/archive")
+@app.post("/detect/archive", summary="Анализ архива с изображениями")
 async def detect_from_archive(file: UploadFile = File(...)):
     """Endpoint для обработки архива с изображениями"""
     if not file or not file.filename:
