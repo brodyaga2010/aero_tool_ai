@@ -104,7 +104,7 @@ export const ModelTrainingComponent = () => {
     formData.append("toolset", toolsetName);
 
     try {
-      const response = await fetch("http://192.168.193.130:8002/api/extract-archives", {
+      const response = await fetch("/api3/extract-archives", {
         method: "POST",
         body: formData
       });
@@ -141,7 +141,7 @@ export const ModelTrainingComponent = () => {
   // Функция для проверки статуса обучения
   const checkTrainingStatus = async (trainingId: string) => {
     try {
-      const response = await fetch(`http://192.168.193.130:8002/api/training/status/${trainingId}`);
+      const response = await fetch(`/api3/training/status/${trainingId}`);
       
       if (!response.ok) {
         throw new Error(`Ошибка получения статуса: ${response.status}`);
@@ -203,7 +203,7 @@ export const ModelTrainingComponent = () => {
   useEffect(() => {
     const loadTrainingHistory = async () => {
       try {
-        const response = await fetch("http://192.168.193.130:8002/api/training/history");
+        const response = await fetch("/api3/training/history");
         if (response.ok) {
           const history = await response.json();
           setTrainingHistory(history);

@@ -464,17 +464,17 @@ export const ToolRecognition = ({}: {}) => {
 
     switch (endpoint) {
       case "single":
-        apiEndpoint = "/apiml/recognize/single";
+        apiEndpoint = "/api/recognize/single";
         break;
       case "multiple":
-        apiEndpoint = "/apiml/recognize/multiple";
+        apiEndpoint = "/api/recognize/multiple";
         setProcessingProgress({
           current: 0,
           total: formData.getAll("files").length,
         });
         break;
       case "archive":
-        apiEndpoint = "/apiml/recognize/archive";
+        apiEndpoint = "/api/recognize/archive";
         break;
     }
 

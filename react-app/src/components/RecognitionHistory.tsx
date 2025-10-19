@@ -26,7 +26,7 @@ const CLASS_MAP = {
 };
 
 // Базовый URL API
-const API_BASE_URL = '/api';
+const API_BASE_URL = '/api2';
 
 // Хук для загрузки изображения с сервера по image_id
 const useImageLoader = (imageId: string | null) => {

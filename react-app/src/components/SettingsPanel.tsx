@@ -20,7 +20,7 @@ const useSystemSettings = () => {
     const fetchSettings = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/settings');
+        const response = await fetch('/api2/settings');
         if (!response.ok) throw new Error('Failed to fetch settings');
         
         const data = await response.json();
@@ -55,7 +55,7 @@ const useSystemSettings = () => {
     try {
       setSaving(true);
       // ИСПРАВЛЕНО: порт 8000 вместо 8001
-      const response = await fetch('/api/settings', {
+      const response = await fetch('/api2/settings', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ SystemSettings })
