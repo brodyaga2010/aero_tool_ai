@@ -13,6 +13,8 @@ services:
       - ./nginx/ssl/:/etc/nginx/ssl/:ro 
     depends_on:
       - api
+      - app2
+      - app3
     networks:
       - tooltrack-net
     restart: always
@@ -23,6 +25,52 @@ services:
       dockerfile: Dockerfile
     expose:
       - "8000"
+    environment:
+      - MESSAGE_QUEUE_URL=amqp://guest:guest@rabbitmq:5672/
+    depends_on:
+      - rabbitmq
+    networks:
+      - tooltrack-net
+    restart: always
+
+  app2:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    command: ["python", "run2.py"]
+    expose:
+      - "8001"
+    environment:
+      - MESSAGE_QUEUE_URL=amqp://guest:guest@rabbitmq:5672/
+    depends_on:
+      - rabbitmq
+    networks:
+      - tooltrack-net
+    restart: always
+
+  app3:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    command: ["python", "run3.py"]
+    expose:
+      - "8002"
+    environment:
+      - MESSAGE_QUEUE_URL=amqp://guest:guest@rabbitmq:5672/
+    depends_on:
+      - rabbitmq
+    networks:
+      - tooltrack-net
+    restart: always
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
     ports:
       - "8000:8000"
     networks:

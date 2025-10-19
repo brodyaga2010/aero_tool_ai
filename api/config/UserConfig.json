@@ -1,0 +1,17 @@
+{
+    "SystemSettings": {
+        "recognition": {
+            "recognition": 58
+        },
+        "interface": {
+            "autoCapture": false,
+            "soundNotifications": false,
+            "showBoundingBoxes": false
+        }
+    },
+    "SystemInfo": {
+        "version": "1.0.0",
+        "model": "YOLOv8n Custom",
+        "totalTools": 11
+    }
+}

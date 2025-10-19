@@ -1,0 +1,1777 @@
+2025-10-19 23:14:59,233 - app.main - INFO - POST /api/recognize/single - Начала обработки одного изображения. Toolset: lightweight, Файл: instrumenty — копия (2).JPG
+2025-10-19 23:14:59,252 - app.main - INFO - Установлен порог доверия: 0.9
+2025-10-19 23:15:01,233 - app.main - INFO - POST /api/recognize/single - Успешная обработка. Найдено объектов: 13
+2025-10-19 23:15:01,581 - app.main - INFO - Успешно отправлен результат в очередь сообщений
+2025-10-19 23:16:30,753 - app.main - INFO - POST /api/recognize/single - Начала обработки одного изображения. Toolset: lightweight, Файл: DSCN6001.JPG
+2025-10-19 23:16:30,772 - app.main - INFO - Установлен порог доверия: 0.9
+2025-10-19 23:16:32,345 - app.main - INFO - POST /api/recognize/single - Успешная обработка. Найдено объектов: 20
+2025-10-19 23:16:32,491 - app.main - INFO - Успешно отправлен результат в очередь сообщений
+2025-10-19 23:21:14,375 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:24:38,834 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:25:02,495 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:25:27,602 - app.main - INFO - POST /api/recognize/single - Начала обработки одного изображения. Toolset: lightweight, Файл: instrumenty — копия (2).JPG
+2025-10-19 23:25:27,621 - app.main - INFO - Установлен порог доверия: 0.9
+2025-10-19 23:25:29,960 - app.main - INFO - POST /api/recognize/single - Успешная обработка. Найдено объектов: 13
+2025-10-19 23:25:30,312 - app.main - INFO - Успешно отправлен результат в очередь сообщений
+2025-10-19 23:25:53,814 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:26:51,322 - app.main - INFO - POST /api/recognize/single - Начала обработки одного изображения. Toolset: lightweight, Файл: instrumenty — копия.JPG
+2025-10-19 23:26:51,338 - app.main - INFO - Установлен порог доверия: 0.9
+2025-10-19 23:26:53,530 - app.main - INFO - POST /api/recognize/single - Успешная обработка. Найдено объектов: 13
+2025-10-19 23:26:53,689 - app.main - INFO - Успешно отправлен результат в очередь сообщений
+2025-10-19 23:27:10,085 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:27:37,498 - app.main - INFO - POST /api/recognize/single - Начала обработки одного изображения. Toolset: lightweight, Файл: instrumenty — копия (2).JPG
+2025-10-19 23:27:37,513 - app.main - INFO - Установлен порог доверия: 0.9
+2025-10-19 23:27:39,286 - app.main - INFO - POST /api/recognize/single - Успешная обработка. Найдено объектов: 13
+2025-10-19 23:27:39,438 - app.main - INFO - Успешно отправлен результат в очередь сообщений
+2025-10-19 23:27:53,617 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:28:20,389 - app.main - INFO - POST /api/recognize/single - Начала обработки одного изображения. Toolset: lightweight, Файл: instrumenty — копия (2).JPG
+2025-10-19 23:28:20,409 - app.main - INFO - Установлен порог доверия: 0.9
+2025-10-19 23:28:22,026 - app.main - INFO - POST /api/recognize/single - Успешная обработка. Найдено объектов: 13
+2025-10-19 23:28:22,156 - app.main - INFO - Успешно отправлен результат в очередь сообщений
+2025-10-19 23:28:59,712 - app.main - INFO - POST /api/recognize/multiple - Начала обработки 2 изображений. Toolset: lightweight
+2025-10-19 23:29:01,350 - app.main - INFO - POST /api/recognize/multiple - Успешно обработано 2 из 2 файлов
+2025-10-19 23:29:01,531 - app.main - INFO - Успешно отправлен результат в очередь сообщений
+2025-10-19 23:35:23,867 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:35:38,294 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-19 23:35:38,325 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:35:39,182 - app.main - INFO - POST /api/recognize/multiple - Start of processing 2 image. Toolset: lightweight
+2025-10-19 23:35:41,284 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 13
+2025-10-19 23:35:42,498 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-19 23:35:43,442 - app.main - INFO - POST /api/recognize/multiple - Successfully processed 2 из 2 files
+2025-10-19 23:35:43,976 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-19 23:37:24,286 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:37:44,849 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:40:37,000 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:40:49,319 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-19 23:40:49,320 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-19 23:40:49,349 - app2.main - INFO - Listening for analysis results...
+2025-10-19 23:40:58,960 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:40:58,962 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:40:58,973 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:40:58,981 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:41:00,700 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:41:00,702 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:41:00,794 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:00,796 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:00,836 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:00,840 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:00,899 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:00,901 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:05,326 - app2.main - INFO - GET /api/history/14 - Request for operation details
+2025-10-19 23:41:05,328 - app2.main - INFO - GET /api/history/14 - Operation details retrieved successfully
+2025-10-19 23:41:05,340 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:05,342 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:05,360 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:05,362 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:05,371 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:372> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-19 23:41:05,385 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:05,387 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:05,420 - app2.main - INFO - GET /api/images/20 - Request for image
+2025-10-19 23:41:05,422 - app2.main - INFO - GET /api/images/20 - Image found, returning file
+2025-10-19 23:41:05,444 - app2.main - INFO - GET /api/images/20 - Request for image
+2025-10-19 23:41:05,446 - app2.main - INFO - GET /api/images/20 - Image found, returning file
+2025-10-19 23:41:05,483 - app2.main - INFO - GET /api/images/20 - Request for image
+2025-10-19 23:41:05,485 - app2.main - INFO - GET /api/images/20 - Image found, returning file
+2025-10-19 23:41:17,309 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-19 23:41:17,327 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:41:19,389 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 13
+2025-10-19 23:41:19,813 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-19 23:41:19,914 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-19 23:41:19,928 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-19 23:41:21,663 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:41:21,665 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:41:21,667 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:41:21,668 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:41:22,520 - app2.main - INFO - GET /api/history/16 - Request for operation details
+2025-10-19 23:41:22,523 - app2.main - INFO - GET /api/history/16 - Operation details retrieved successfully
+2025-10-19 23:41:22,572 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:41:22,574 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:41:22,615 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:41:22,621 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:41:26,338 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:41:26,338 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:41:26,341 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:41:26,344 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:41:26,467 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-19 23:41:29,510 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:41:29,513 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:41:29,549 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:29,551 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:29,568 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:29,570 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:57,812 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:57,813 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:41:57,833 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:41:57,834 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:42:47,219 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:42:47,221 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:42:47,222 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:42:47,223 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:42:47,223 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:42:47,227 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:42:47,229 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:42:47,232 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:42:47,253 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:42:47,255 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:42:47,333 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:42:47,335 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:42:47,577 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:42:47,579 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:01,601 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:44:01,603 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:44:01,604 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:44:01,607 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:44:03,008 - app2.main - INFO - GET /api/history/16 - Request for operation details
+2025-10-19 23:44:03,010 - app2.main - INFO - GET /api/history/16 - Operation details retrieved successfully
+2025-10-19 23:44:03,068 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:44:03,071 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:44:07,422 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:44:07,424 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:44:07,449 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:44:07,449 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:44:07,451 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:44:07,452 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:44:07,562 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:07,566 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:07,573 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:07,578 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:12,348 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:44:12,348 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:44:12,350 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:44:12,352 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:44:14,704 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:44:14,707 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:44:14,747 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:14,749 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:14,763 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:14,766 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:28,667 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:44:28,671 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:44:28,671 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:44:28,673 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:28,678 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:44:28,682 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:44:28,684 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:44:28,691 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:28,708 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:28,711 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:28,796 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:28,798 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:28,818 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:28,821 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:28,911 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:28,957 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:44:28,987 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:44:28,989 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:44:29,007 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:29,030 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:29,032 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:44:29,035 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:44:29,037 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:29,049 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:44:29,209 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:29,210 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:44:29,213 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:44:29,214 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:45:10,215 - app2.main - INFO - GET /api/history/16 - Request for operation details
+2025-10-19 23:45:10,216 - app2.main - INFO - GET /api/history/16 - Operation details retrieved successfully
+2025-10-19 23:45:10,237 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:45:10,239 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:45:10,240 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:45:10,242 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:45:10,341 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:45:10,343 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:45:10,344 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:45:10,348 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:45:20,220 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:45:20,221 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:45:20,222 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:45:20,223 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:46:26,394 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:46:26,397 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:46:26,404 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:46:26,405 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:46:26,406 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:46:26,409 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:46:26,556 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:46:26,556 - app2.main - INFO - GET /api/images/23 - Request for image
+2025-10-19 23:46:26,560 - app2.main - INFO - GET /api/history/16 - Request for operation details
+2025-10-19 23:46:26,561 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:46:26,562 - app2.main - INFO - GET /api/images/23 - Image found, returning file
+2025-10-19 23:46:26,565 - app2.main - INFO - GET /api/history/16 - Operation details retrieved successfully
+2025-10-19 23:46:26,566 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:46:26,572 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:46:36,117 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-19 23:46:36,135 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:46:38,347 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 13
+2025-10-19 23:46:38,850 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-19 23:46:38,946 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-19 23:46:38,961 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-19 23:46:40,858 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:46:40,859 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:46:40,860 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:46:40,862 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:46:40,864 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:46:40,871 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:46:45,321 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:46:45,321 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:46:45,324 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:46:45,329 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:47:11,831 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:47:11,832 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:47:11,833 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:47:11,847 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:49:01,438 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:49:20,505 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-19 23:49:20,506 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-19 23:49:20,540 - app2.main - INFO - Listening for analysis results...
+2025-10-19 23:49:21,857 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:49:21,865 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:49:21,910 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:49:21,913 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:49:21,938 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:49:21,939 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:49:33,325 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: DSCN5863.JPG
+2025-10-19 23:49:33,340 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:49:35,372 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 10
+2025-10-19 23:49:35,510 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-19 23:49:35,559 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-19 23:49:35,572 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-19 23:49:48,771 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:49:48,779 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:372> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-19 23:49:48,783 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:49:48,785 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:49:48,790 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:49:52,430 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:49:52,433 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:49:52,529 - app2.main - INFO - GET /api/images/25 - Request for image
+2025-10-19 23:49:52,532 - app2.main - INFO - GET /api/images/25 - Image found, returning file
+2025-10-19 23:50:35,064 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:50:46,875 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-19 23:50:46,877 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-19 23:50:46,890 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:50:46,892 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:50:46,893 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:50:46,895 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:50:46,899 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:50:46,904 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:50:46,922 - app2.main - INFO - Listening for analysis results...
+2025-10-19 23:50:46,929 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:50:46,934 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:372> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-19 23:50:46,936 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:50:46,936 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:50:46,937 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:50:46,940 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:50:46,940 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:50:46,989 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:50:46,989 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:50:46,990 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:50:46,992 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:50:46,992 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:50:46,996 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:53:55,953 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:53:55,954 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:53:55,954 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:53:55,958 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:53:55,960 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:53:55,962 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:16,115 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:54:16,117 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:54:16,118 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:54:16,121 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:16,121 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:54:16,126 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:54:29,546 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:54:45,388 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-19 23:54:45,389 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-19 23:54:45,410 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:54:45,411 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:54:45,414 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:54:45,426 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:54:45,434 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:45,445 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:54:45,451 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:54:45,455 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:54:45,460 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:54:45,462 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:45,468 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:54:45,470 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:54:45,479 - app2.main - INFO - Listening for analysis results...
+2025-10-19 23:54:45,492 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:54:45,495 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:54:45,508 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:54:45,508 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:54:45,510 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:45,514 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:54:45,539 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:54:45,539 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:54:45,540 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:54:45,541 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:45,541 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:54:45,542 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:54:49,062 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:54:49,062 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:54:49,064 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:54:49,065 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:54:49,068 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:49,073 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:54:50,550 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-19 23:54:50,552 - app2.main - INFO - GET /api/history/18 - Request for operation details
+2025-10-19 23:54:50,553 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-19 23:54:50,556 - app2.main - INFO - GET /api/history/18 - Operation details retrieved successfully
+2025-10-19 23:54:50,558 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-19 23:54:50,560 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-19 23:55:13,305 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:55:30,433 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-19 23:55:30,435 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-19 23:55:30,483 - app2.main - INFO - Listening for analysis results...
+2025-10-19 23:55:30,504 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-19 23:55:30,521 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:55:32,567 - app.main - ERROR - POST /api/recognize/single - Error while processing image: unhashable type: 'list'
+2025-10-19 23:57:01,505 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-19 23:57:01,508 - app2.main - INFO - GET /api/images/25 - Request for image
+2025-10-19 23:57:01,516 - app2.main - INFO - GET /api/images/25 - Image found, returning file
+2025-10-19 23:57:01,534 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-19 23:57:01,564 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:57:01,566 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:57:01,595 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-19 23:57:01,599 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-19 23:58:07,081 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-19 23:58:07,107 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:58:08,746 - app.main - ERROR - POST /api/recognize/single - Error while processing image: unhashable type: 'list'
+2025-10-19 23:58:19,225 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:58:32,372 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-19 23:58:32,390 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:58:32,407 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-19 23:58:32,408 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-19 23:58:32,442 - app2.main - INFO - Listening for analysis results...
+2025-10-19 23:58:34,555 - app.main - ERROR - POST /api/recognize/single - Error while processing image: unhashable type: 'list'
+2025-10-19 23:59:13,720 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-19 23:59:26,728 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-19 23:59:26,729 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-19 23:59:26,778 - app2.main - INFO - Listening for analysis results...
+2025-10-19 23:59:26,798 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-19 23:59:26,814 - app.main - INFO - Trust threshold set: 0.9
+2025-10-19 23:59:28,659 - app.main - ERROR - POST /api/recognize/single - Error while processing image: unhashable type: 'list'
+2025-10-20 00:00:01,529 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:00:15,279 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:00:15,280 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:00:15,322 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:00:15,333 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: instrumenty — копия (2).JPG
+2025-10-20 00:00:15,348 - app.main - INFO - Trust threshold set: 0.9
+2025-10-20 00:00:17,460 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 13
+2025-10-20 00:00:17,793 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-20 00:00:17,975 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-20 00:00:18,021 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-20 00:00:24,991 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:00:24,995 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:00:24,997 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:00:24,997 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:00:26,077 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:00:26,082 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:00:26,179 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:00:26,180 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:00:26,182 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:00:26,182 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:00:38,212 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:00:38,213 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:00:38,214 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:00:38,215 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:01:58,819 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:01:58,821 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:02:04,267 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:02:04,270 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:02:04,278 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:372> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-20 00:02:04,272 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:02:04,282 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:02:15,052 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:02:15,054 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:02:15,186 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:02:15,189 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:02:15,195 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:02:15,200 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:02:37,205 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:03:13,076 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:03:13,077 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:03:13,108 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:03:13,109 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:03:13,110 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:03:13,111 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:03:13,113 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:03:13,115 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:03:13,121 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:03:13,129 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:03:13,157 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:03:13,163 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:03:13,175 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:03:13,187 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:03:13,201 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:03:14,238 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:03:14,240 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:03:14,335 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:03:14,335 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:03:14,336 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:03:14,337 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:04:20,290 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:04:20,292 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:04:20,294 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:04:20,294 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:04:21,563 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:04:21,565 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:04:21,644 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:04:21,645 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:05:52,746 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:05:52,748 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:05:52,749 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:05:52,755 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:05:52,758 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:05:52,758 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:05:52,763 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:05:52,778 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:05:53,062 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:05:53,062 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:05:53,063 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:05:53,065 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:05:53,065 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:05:53,068 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:06:03,553 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:06:16,892 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:06:16,893 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:06:16,925 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:06:17,797 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:06:17,799 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:06:17,800 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:06:17,807 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:06:17,812 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:373> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-20 00:06:17,816 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:06:17,823 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:06:18,060 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:06:18,060 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:06:18,060 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:06:18,062 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:06:18,062 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:06:18,075 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:06:38,510 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:06:38,512 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:06:38,513 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:06:38,513 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:06:38,514 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:06:38,516 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:06:38,519 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:06:38,528 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:06:39,070 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:06:39,070 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:06:39,071 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:06:39,074 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:06:39,075 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:06:39,079 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:06:51,703 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:07:01,143 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:07:01,144 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:07:01,180 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:07:02,870 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:07:02,871 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:07:02,872 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:07:02,875 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:373> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-20 00:07:02,876 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:07:02,876 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:07:02,881 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:07:03,058 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:07:03,059 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:07:03,059 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:07:03,061 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:07:03,061 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:07:03,064 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:07:25,469 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:07:25,470 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:07:25,471 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:07:25,472 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:07:25,472 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:07:25,477 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:07:25,617 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:07:25,618 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:07:26,064 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:07:26,064 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:07:26,065 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:07:26,066 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:07:26,073 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:07:26,076 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:08:18,813 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:08:18,814 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:08:18,815 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:08:18,816 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:08:18,816 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:08:18,818 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:08:18,820 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:08:18,823 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:08:19,063 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:08:19,064 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:08:19,064 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:08:19,066 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:08:19,067 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:08:19,073 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:08:21,781 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:08:21,781 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:08:21,782 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:08:21,784 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:08:21,786 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:08:21,787 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:08:22,053 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:08:22,054 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:08:22,055 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:08:22,056 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:08:22,058 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:08:22,069 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:10:59,401 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:11:10,598 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:11:10,600 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:11:10,647 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:11:26,404 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:11:36,726 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:11:36,728 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:11:36,760 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:11:48,527 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:12:21,151 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:12:21,152 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:12:21,175 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:12:21,175 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:12:21,177 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:12:21,179 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:12:21,184 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:12:21,191 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:12:21,199 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:12:21,204 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:12:21,209 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:12:21,218 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:12:21,221 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:12:21,229 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:12:21,234 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:12:21,237 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:12:21,244 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:12:21,246 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:12:21,250 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:12:35,947 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:12:35,949 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:12:35,950 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:12:35,952 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:12:36,061 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:12:36,062 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:12:36,064 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:12:36,066 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:12:36,069 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:12:36,075 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:12:47,579 - watchfiles.main - INFO - 5 changes detected
+2025-10-20 00:13:28,497 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:28,861 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:29,225 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:29,590 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:29,946 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:30,402 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:30,806 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:31,212 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:31,619 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:32,025 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:32,431 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:32,837 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:33,247 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:34,005 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:34,371 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:34,828 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:35,231 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:35,635 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:35,992 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:36,405 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:36,815 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:37,220 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:37,579 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:37,992 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:38,400 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:38,807 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:39,217 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:39,639 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:40,046 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:40,455 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:40,816 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:40,978 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:13:41,193 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:41,553 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:41,914 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:42,275 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:42,640 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:42,996 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:43,411 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:43,818 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:44,173 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:44,527 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:44,883 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:45,240 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:45,598 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:45,954 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:46,313 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:46,670 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:47,078 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:47,484 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:47,893 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:48,250 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:48,657 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:49,063 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:49,472 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:49,883 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:50,293 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:50,699 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:51,059 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:51,471 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:51,883 - watchfiles.main - INFO - 6 changes detected
+2025-10-20 00:13:52,292 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:52,700 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:53,105 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:53,508 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:53,524 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:13:53,525 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:13:53,629 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:13:53,913 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:54,320 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:54,678 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:55,088 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:55,494 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:55,898 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:56,305 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:56,708 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:57,114 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:57,520 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:57,926 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:58,332 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:58,736 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:59,095 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:59,508 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:13:59,924 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:00,333 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:01,144 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:01,503 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:01,863 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:02,272 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:02,678 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:03,037 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:03,450 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:03,866 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:04,270 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:04,678 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:05,089 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:05,447 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:05,858 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:06,263 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:06,672 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:07,084 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:07,519 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:07,913 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:08,322 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:08,791 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:09,148 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:09,560 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:09,967 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:10,383 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:10,789 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:11,198 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:11,605 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:11,965 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:12,376 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:12,782 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:13,193 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:13,605 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:14,027 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:14,381 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:14,795 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:15,198 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:15,601 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:16,029 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:16,437 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:16,847 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:17,210 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:17,621 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:18,029 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:18,439 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:18,848 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:19,257 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:19,667 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:20,073 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:20,477 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:20,881 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:21,252 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:21,668 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:22,080 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:22,479 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:22,900 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:23,308 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:23,714 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:24,119 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:24,524 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:24,933 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:25,337 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:25,742 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:26,146 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:26,555 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:26,912 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:27,373 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:27,741 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:28,152 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:28,560 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:28,967 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:29,374 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:29,731 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:30,145 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:30,550 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:30,956 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:31,364 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:31,726 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:32,134 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:32,544 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:32,950 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:33,354 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:33,761 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:34,126 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:34,538 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:34,945 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:35,347 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:35,755 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:36,158 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:36,565 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:36,972 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:37,378 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:37,784 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:38,195 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:38,605 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:39,011 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:39,418 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:39,824 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:40,234 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:40,639 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:40,996 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:41,402 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:41,809 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:42,219 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:42,630 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:42,990 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:43,413 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:43,857 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:44,264 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:44,670 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:45,076 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:45,488 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:45,853 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:46,270 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:46,686 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:47,090 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:47,494 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:47,901 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:48,266 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:48,672 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:49,087 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:49,504 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:49,870 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:50,277 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:50,679 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:51,135 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:51,540 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:51,946 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:52,355 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:52,763 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:53,167 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:53,573 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:53,929 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:54,341 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:54,748 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:55,158 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:55,565 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:55,971 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:56,376 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:56,782 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:57,187 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:57,599 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:57,958 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:58,369 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:58,778 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:59,184 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:59,587 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:14:59,995 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:00,400 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:00,808 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:01,214 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:01,619 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:02,026 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:02,430 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:02,835 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:03,246 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:03,658 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:04,067 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:04,433 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:04,842 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:05,323 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:05,733 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:06,137 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:06,539 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:06,898 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:07,309 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:07,716 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:08,127 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:08,537 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:08,895 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:09,308 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:09,713 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:10,119 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:10,525 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:10,932 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:11,341 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:11,746 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:12,150 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:12,557 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:12,962 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:13,366 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:13,774 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:14,181 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:14,587 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:14,994 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:15,397 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:15,756 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:16,170 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:16,587 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:16,996 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:17,400 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:17,806 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:18,213 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:18,621 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:18,982 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:19,395 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:19,805 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:20,214 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:20,576 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:20,987 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:21,394 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:21,875 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:22,241 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:22,649 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:23,055 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:23,462 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:23,878 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:24,285 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:24,643 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:25,053 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:25,461 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:25,867 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:26,274 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:26,679 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:27,097 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:27,453 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:27,863 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:28,268 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:28,677 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:29,086 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:29,494 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:29,852 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:30,263 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:30,669 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:31,079 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:31,488 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:31,907 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:32,266 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:32,677 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:33,084 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:33,503 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:34,010 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:34,374 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:34,788 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:35,192 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:35,509 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:15:35,510 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:15:35,525 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:15:35,530 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:15:35,602 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:36,007 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:36,366 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:36,781 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:37,189 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:37,603 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:38,012 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:38,497 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:38,907 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:39,313 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:39,723 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:40,133 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:40,541 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:40,952 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:41,359 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:41,765 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:42,280 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:42,696 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:43,101 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:43,509 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:43,914 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:44,271 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:44,683 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:45,089 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:45,497 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:45,906 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:46,323 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:47,692 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:48,061 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:48,420 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:48,825 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:49,192 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:49,554 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:49,961 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:50,363 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:50,503 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:15:50,505 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:15:50,505 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:15:50,509 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:15:50,770 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:51,175 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:51,578 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:51,930 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:52,321 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 00:15:52,323 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 00:15:52,336 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:52,429 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 00:15:52,429 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 00:15:52,738 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:53,151 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:53,567 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:53,935 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:54,348 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:54,755 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:55,166 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:55,574 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:55,931 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:56,338 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:56,742 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:57,145 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:57,551 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:57,955 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:58,361 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:58,764 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:59,123 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:59,535 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:15:59,940 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:00,348 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:00,763 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:01,170 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:01,530 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:01,946 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:02,356 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:02,761 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:03,166 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:03,572 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:03,981 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:04,346 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:04,754 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:05,162 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:05,568 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:05,980 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:06,390 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:06,797 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:07,154 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:07,563 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:07,968 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:08,375 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:08,782 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:09,186 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:09,593 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:09,997 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:10,402 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:10,810 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:11,214 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:11,620 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:12,026 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:12,429 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:12,835 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:13,241 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:13,647 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:14,024 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:14,494 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:14,899 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:15,258 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:15,671 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:16,088 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:16,492 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:16,853 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:17,267 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:17,680 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:18,041 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:18,448 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:18,858 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:19,271 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:19,632 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:20,041 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:20,452 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:20,811 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:21,229 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:21,635 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:22,050 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:22,406 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:22,821 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:23,230 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:23,636 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:24,046 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:24,407 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:24,824 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:25,227 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:25,585 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:25,948 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:26,225 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:26,308 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:26,590 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:26,668 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:27,001 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:27,032 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:27,395 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:27,415 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:27,817 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:27,832 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:28,225 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:28,240 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:28,634 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:28,650 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:29,043 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:29,059 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:29,418 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:29,451 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:29,833 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:29,863 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:30,238 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:30,270 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:30,648 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:30,681 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:31,042 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:31,061 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:31,455 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:31,472 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:31,835 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:31,870 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:32,228 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:32,248 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:32,639 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:32,653 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:33,041 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:33,057 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:33,448 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:33,463 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:33,860 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:33,876 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:34,240 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:34,274 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:34,603 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:34,629 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:34,984 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:35,018 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:35,378 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:35,397 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:35,793 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:35,809 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:36,199 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:36,214 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:36,605 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:36,623 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:36,981 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:37,016 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:37,391 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:37,423 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:37,781 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:37,800 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:38,196 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:38,212 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:38,598 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:38,615 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:39,009 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:39,025 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:39,382 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:39,418 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:39,794 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:39,826 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:40,185 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:40,204 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:40,599 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:40,615 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:40,973 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:41,008 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:41,366 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:41,385 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:41,778 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:41,793 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:42,184 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:42,199 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:42,588 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:42,602 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:42,991 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:43,005 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:43,396 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:43,411 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:43,814 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:44,222 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:44,629 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:44,629 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:44,983 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:45,394 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:45,799 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:46,201 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:46,610 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:46,970 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:46,970 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:47,380 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:47,785 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:48,193 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:48,193 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:48,601 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:48,601 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:49,005 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:49,005 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:49,410 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:49,816 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:50,223 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:50,632 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:50,992 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:50,992 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:51,405 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:51,814 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:51,814 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:52,221 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:52,625 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:53,030 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:53,388 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:53,388 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:53,800 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:54,204 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:54,204 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:54,605 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:54,621 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:55,008 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:55,024 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:55,411 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:55,427 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:55,827 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:55,842 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:56,205 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:56,239 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:56,605 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:56,608 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:57,010 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:57,010 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:57,418 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:57,824 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:58,228 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:58,637 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:59,042 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:59,042 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:59,448 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:16:59,851 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:00,257 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:00,257 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:00,664 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:01,071 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:01,071 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:01,476 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:01,833 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:01,833 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:02,242 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:02,646 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:02,647 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:03,052 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:03,456 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:03,815 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:04,231 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:04,635 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:05,046 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:05,448 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:05,851 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:06,255 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:06,659 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:07,065 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:07,471 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:07,873 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:07,873 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:08,283 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:08,690 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:08,690 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:09,095 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:09,456 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:09,862 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:10,267 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:10,268 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:10,687 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:11,094 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:11,510 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:11,871 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:12,280 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:12,688 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:12,688 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:13,099 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:13,457 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:13,871 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:13,871 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:14,279 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:14,683 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:15,087 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:15,495 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:15,902 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:16,307 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:16,712 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:17,118 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:17,523 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:17,523 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:17,880 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:17,880 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:18,292 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:18,696 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:19,102 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:19,506 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:19,506 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:19,913 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:20,318 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:20,320 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:20,734 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:21,141 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:21,143 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:21,498 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:21,498 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:21,907 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:21,907 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:22,319 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:22,319 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:22,727 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:23,134 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:23,538 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:23,943 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:24,353 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:24,353 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:24,710 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:25,119 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:25,525 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:25,929 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:26,336 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:26,742 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:27,146 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:27,146 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:27,551 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:27,551 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:27,960 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:28,362 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:28,765 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:28,766 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:29,125 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:29,534 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:29,944 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:30,351 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:30,755 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:31,162 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:31,163 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:31,566 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:31,971 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:32,376 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:32,784 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:32,784 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:33,190 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:33,191 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:33,599 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:33,957 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:34,363 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:34,364 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:34,769 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:34,769 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:35,174 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:35,580 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:35,985 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:36,389 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:36,799 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:36,800 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:37,204 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:37,616 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:38,020 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:38,425 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:38,783 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:39,195 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:39,602 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:40,051 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:40,052 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:40,419 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:40,454 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:40,829 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:40,860 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:41,235 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:41,266 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:41,640 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:41,671 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:42,030 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:42,050 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:42,440 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:42,456 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:42,848 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:42,865 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:43,223 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:43,257 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:43,664 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:44,024 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:44,436 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:44,891 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:45,252 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:45,662 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:46,070 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:46,459 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:46,874 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:47,284 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:47,689 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:48,097 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:48,505 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:48,915 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:49,271 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:49,680 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:50,090 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:50,499 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:50,858 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:51,269 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:51,724 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:52,132 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:52,541 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:52,947 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:53,351 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:53,757 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:54,166 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:54,935 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:55,393 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:55,808 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:56,353 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:56,860 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:57,269 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:57,733 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:58,149 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:58,565 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:58,919 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:59,325 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:17:59,740 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:00,106 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:00,470 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:00,692 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:18:13,118 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:18:13,120 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:18:13,162 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:18:36,430 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:18:45,868 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:18:45,869 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:18:45,910 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:18:52,875 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:53,238 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:53,602 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:54,014 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:54,422 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:54,830 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:55,238 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:55,643 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:56,049 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:56,455 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:18:56,862 - watchfiles.main - INFO - 1 change detected
+2025-10-20 00:19:03,127 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:19:13,592 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:19:13,593 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:19:13,612 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:19:13,613 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:19:13,627 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:19:13,633 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:19:13,645 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:19:13,672 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:19:13,673 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:19:13,674 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:19:13,678 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:20:03,308 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:20:03,312 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:20:03,317 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:20:03,319 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:20:06,033 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:20:19,317 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:20:19,318 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:20:19,322 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 00:20:19,356 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:20:22,668 - app2.main - INFO - POST /api/settings - Request to update settings
+2025-10-20 00:20:22,670 - app2.main - INFO - POST /api/settings - Settings updated successfully
+2025-10-20 00:20:30,636 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 00:21:56,325 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:22:09,578 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:22:09,580 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:22:09,584 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 00:22:09,613 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:22:19,363 - app2.main - INFO - POST /api/settings - Request to update settings
+2025-10-20 00:22:19,366 - app2.main - INFO - POST /api/settings - Settings updated successfully
+2025-10-20 00:22:27,222 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:22:27,224 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:22:27,240 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:22:27,248 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:22:34,793 - app.main - INFO - POST /api/recognize/multiple - Start of processing 2 image. Toolset: lightweight
+2025-10-20 00:22:40,297 - app.main - INFO - POST /api/recognize/multiple - Successfully processed 2 из 2 files
+2025-10-20 00:22:40,812 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-20 00:22:41,029 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-20 00:22:41,046 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-20 00:24:02,098 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:24:14,130 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:24:14,131 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:24:14,164 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:24:24,939 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:24:24,941 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:24:24,943 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:24:24,946 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:24:51,411 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:24:51,414 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:24:51,414 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:24:51,419 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:24:56,922 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:24:56,922 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:24:56,924 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:24:56,928 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:25:06,666 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:25:06,668 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:25:06,679 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:25:06,686 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:25:26,220 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 00:25:28,281 - app2.main - INFO - POST /api/settings - Request to update settings
+2025-10-20 00:25:28,284 - app2.main - INFO - POST /api/settings - Settings updated successfully
+2025-10-20 00:25:33,890 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: DSCN5863.JPG
+2025-10-20 00:25:33,911 - app.main - INFO - Trust threshold set: 0.74
+2025-10-20 00:25:36,410 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 10
+2025-10-20 00:25:36,551 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-20 00:25:36,590 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-20 00:25:36,606 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-20 00:25:53,113 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:25:53,116 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:373> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-20 00:25:53,118 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:25:53,119 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:25:53,121 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:25:55,579 - app2.main - INFO - GET /api/history/21 - Request for operation details
+2025-10-20 00:25:55,581 - app2.main - INFO - GET /api/history/21 - Operation details retrieved successfully
+2025-10-20 00:25:55,673 - app2.main - INFO - GET /api/images/29 - Request for image
+2025-10-20 00:25:55,674 - app2.main - INFO - GET /api/images/29 - Image found, returning file
+2025-10-20 00:26:21,397 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:26:36,558 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:26:36,559 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:26:36,591 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:26:41,887 - app2.main - INFO - GET /api/images/29 - Request for image
+2025-10-20 00:26:41,889 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:26:41,893 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:373> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-20 00:26:41,895 - app2.main - INFO - GET /api/images/29 - Image found, returning file
+2025-10-20 00:26:41,897 - app2.main - INFO - GET /api/history/21 - Request for operation details
+2025-10-20 00:26:41,899 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:26:41,904 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:26:41,905 - app2.main - INFO - GET /api/history/21 - Operation details retrieved successfully
+2025-10-20 00:26:41,910 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:26:43,883 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:26:43,884 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:26:43,884 - app2.main - INFO - GET /api/history/21 - Request for operation details
+2025-10-20 00:26:43,887 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:26:43,891 - app2.main - INFO - GET /api/history/21 - Operation details retrieved successfully
+2025-10-20 00:26:43,897 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:26:45,678 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:26:45,679 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:26:45,679 - app2.main - INFO - GET /api/history/21 - Request for operation details
+2025-10-20 00:26:45,682 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:26:45,684 - app2.main - INFO - GET /api/history/21 - Operation details retrieved successfully
+2025-10-20 00:26:45,687 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:26:46,648 - app2.main - INFO - GET /api/images/29 - Request for image
+2025-10-20 00:26:46,648 - app2.main - INFO - GET /api/history/21 - Request for operation details
+2025-10-20 00:26:46,648 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:26:46,648 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:26:46,650 - app2.main - INFO - GET /api/images/29 - Image found, returning file
+2025-10-20 00:26:46,650 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:26:46,653 - app2.main - INFO - GET /api/history/21 - Operation details retrieved successfully
+2025-10-20 00:26:46,659 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:27:39,959 - app2.main - INFO - GET /api/images/29 - Request for image
+2025-10-20 00:27:39,963 - app2.main - INFO - GET /api/images/29 - Image found, returning file
+2025-10-20 00:27:40,942 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:27:52,531 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:27:52,532 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:27:52,576 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:28:35,772 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 00:28:38,087 - app2.main - INFO - POST /api/settings - Request to update settings
+2025-10-20 00:28:38,090 - app2.main - INFO - POST /api/settings - Settings updated successfully
+2025-10-20 00:28:39,111 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:28:39,113 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:28:39,123 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:28:39,128 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:28:44,382 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: DSCN5998.JPG
+2025-10-20 00:28:44,394 - app.main - INFO - Trust threshold set: 1.0
+2025-10-20 00:28:47,319 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 20
+2025-10-20 00:28:47,648 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-20 00:28:47,755 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-20 00:28:47,779 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-20 00:29:42,355 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:29:57,469 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:29:57,472 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:29:57,480 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 00:29:57,558 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:30:01,636 - app2.main - INFO - POST /api/settings - Request to update settings
+2025-10-20 00:30:01,643 - app2.main - INFO - POST /api/settings - Settings updated successfully
+2025-10-20 00:30:10,614 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: DSCN5998.JPG
+2025-10-20 00:30:10,630 - app.main - INFO - Trust threshold set: 0.58
+2025-10-20 00:30:13,637 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 20
+2025-10-20 00:30:14,272 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-20 00:30:14,498 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-20 00:30:14,524 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-20 00:30:50,393 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:31:06,427 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:31:06,429 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:31:06,557 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:32:00,927 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:32:17,205 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:32:17,206 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:32:17,248 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:32:33,345 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:32:33,346 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:32:33,354 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:32:33,369 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:32:34,912 - app2.main - INFO - GET /api/history/22 - Request for operation details
+2025-10-20 00:32:34,915 - app2.main - INFO - GET /api/history/22 - Operation details retrieved successfully
+2025-10-20 00:32:35,011 - app2.main - INFO - GET /api/images/30 - Request for image
+2025-10-20 00:32:35,012 - app2.main - INFO - GET /api/images/30 - Image found, returning file
+2025-10-20 00:32:37,265 - app2.main - INFO - GET /api/history/21 - Request for operation details
+2025-10-20 00:32:37,268 - app2.main - INFO - GET /api/history/21 - Operation details retrieved successfully
+2025-10-20 00:32:37,356 - app2.main - INFO - GET /api/images/29 - Request for image
+2025-10-20 00:32:37,357 - app2.main - INFO - GET /api/images/29 - Image found, returning file
+2025-10-20 00:33:05,937 - app2.main - INFO - GET /api/history/23 - Request for operation details
+2025-10-20 00:33:05,940 - app2.main - INFO - GET /api/history/23 - Operation details retrieved successfully
+2025-10-20 00:33:06,243 - app2.main - INFO - GET /api/images/31 - Request for image
+2025-10-20 00:33:06,244 - app2.main - INFO - GET /api/images/31 - Image found, returning file
+2025-10-20 00:36:04,261 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:36:18,775 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:36:18,776 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:36:18,903 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:36:54,443 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:37:15,789 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:37:15,790 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:37:15,831 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:37:27,882 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\1b1c20d6-2bab-41f3-a4a5-5a7fa4642438\archive1
+2025-10-20 00:37:27,883 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\1b1c20d6-2bab-41f3-a4a5-5a7fa4642438\archive2
+2025-10-20 00:37:27,906 - app3.main - ERROR - Ошибка при обработке архивов: can only concatenate str (not "NoneType") to str
+2025-10-20 00:39:55,931 - app3.main - INFO - Путь к содержимому первого архива: c:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\1eb8943f-f253-4cd9-961b-afc8ad3f3752\archive1
+2025-10-20 00:39:57,673 - app3.main - INFO - Путь к содержимому второго архива: c:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\1eb8943f-f253-4cd9-961b-afc8ad3f3752\archive2
+2025-10-20 00:40:42,061 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:40:59,808 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:40:59,810 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:40:59,859 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:42:21,797 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:42:33,121 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:42:33,122 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:42:33,162 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:42:49,329 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\855ff8d6-ee9a-464d-88a6-9b9d09d7b2c8\archive1
+2025-10-20 00:42:49,332 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\855ff8d6-ee9a-464d-88a6-9b9d09d7b2c8\archive2
+2025-10-20 00:42:49,375 - app3.main - ERROR - Ошибка при обработке архивов: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-10-20 00:43:14,271 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\6a617760-f6b2-4112-a274-00aa7287ae60\archive1
+2025-10-20 00:43:14,272 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\6a617760-f6b2-4112-a274-00aa7287ae60\archive2
+2025-10-20 00:43:14,294 - app3.main - ERROR - Ошибка при обработке архивов: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-10-20 00:43:30,027 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:43:41,479 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:43:41,481 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:43:41,521 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:43:47,347 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\c3150dad-a087-477c-ab8f-3aa397cd879f\archive1
+2025-10-20 00:43:47,348 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\c3150dad-a087-477c-ab8f-3aa397cd879f\archive2
+2025-10-20 00:43:47,370 - app3.main - ERROR - Ошибка при обработке архивов: YAML файл не найден: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\YMLS\dataset.yml
+2025-10-20 00:44:02,749 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:44:15,166 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:44:15,167 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:44:15,199 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:44:20,776 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\681c9cbc-4db8-40af-af38-652fdba2fc09\archive1
+2025-10-20 00:44:20,777 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\681c9cbc-4db8-40af-af38-652fdba2fc09\archive2
+2025-10-20 00:44:32,481 - app3.main - ERROR - Ошибка при обработке архивов: attempt to get argmax of an empty sequence
+2025-10-20 00:45:36,156 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:45:36,157 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:45:36,168 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:45:36,174 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:45:55,648 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:46:06,732 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:46:06,733 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:46:06,763 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:46:14,248 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\1c3c2a57-6ca6-48d8-a58e-f55a0ef8a9a1\archive1
+2025-10-20 00:46:14,249 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\1c3c2a57-6ca6-48d8-a58e-f55a0ef8a9a1\archive2
+2025-10-20 00:46:14,267 - app3.main - ERROR - Ошибка при обработке архивов: name 'model' is not defined
+2025-10-20 00:46:45,493 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:46:56,257 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:46:56,259 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:46:56,299 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:47:03,039 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\4c7f42dc-f56c-49d9-ac9d-5b053ec38841\archive1
+2025-10-20 00:47:03,040 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\4c7f42dc-f56c-49d9-ac9d-5b053ec38841\archive2
+2025-10-20 00:47:03,187 - app3.main - ERROR - Ошибка при обработке архивов: name 'best_hyp' is not defined
+2025-10-20 00:47:28,708 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:47:43,415 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:47:43,416 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:47:43,452 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:47:58,097 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\20135eac-23ab-4a47-afc8-4e53c7ecd4ab\archive1
+2025-10-20 00:47:58,098 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\20135eac-23ab-4a47-afc8-4e53c7ecd4ab\archive2
+2025-10-20 00:47:59,217 - app3.main - ERROR - Ошибка при обработке архивов: Dataset 'C://GitRepos/Hakaton/ApiWithThread/api/static/archives/YMLS/dataset.yaml' error  could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/apply:pathlib.WindowsPath'
+  in "<unicode string>", line 1, column 7
+2025-10-20 00:49:44,029 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:49:44,032 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:49:44,046 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:49:44,055 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:49:56,054 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:49:56,060 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:49:56,062 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:49:56,066 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:49:56,947 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:49:56,947 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:49:56,949 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:49:56,951 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:50:08,942 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:50:08,944 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:50:08,946 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:50:08,951 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:50:13,930 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:50:13,934 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:50:13,946 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:50:13,948 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:51:48,967 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:51:49,013 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:51:49,019 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:51:49,025 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:51:50,946 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:51:50,947 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:51:50,953 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:51:50,966 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:52:02,947 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:52:02,948 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:52:02,950 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:52:02,955 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:52:04,705 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:52:20,963 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:52:20,964 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:52:20,985 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 00:52:20,987 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 00:52:21,005 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 00:52:21,009 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 00:52:21,019 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:52:27,440 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\8885bc7e-914a-48e8-aee8-87286007889b\archive1
+2025-10-20 00:52:27,442 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\8885bc7e-914a-48e8-aee8-87286007889b\archive2
+2025-10-20 00:52:28,975 - app3.main - ERROR - Ошибка при обработке архивов: Dataset 'C://GitRepos/Hakaton/ApiWithThread/api/static/archives/YMLS/dataset.yaml' error  could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/apply:pathlib.WindowsPath'
+  in "<unicode string>", line 1, column 7
+2025-10-20 00:53:24,310 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:53:39,299 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:53:39,301 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:53:39,338 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:53:46,333 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\cc6b637b-e516-4954-ae11-8e5bb2a0ab63\archive1
+2025-10-20 00:53:46,334 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\cc6b637b-e516-4954-ae11-8e5bb2a0ab63\archive2
+2025-10-20 00:53:50,987 - app3.main - ERROR - Ошибка при обработке архивов: [34m[1mtrain: [0mError loading data from C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\YMLS\images\train
+See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-10-20 00:55:50,932 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:56:09,237 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:56:09,239 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:56:09,376 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:56:14,634 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\4b978584-bc46-4b8c-952e-f9f5ed25647d\archive1
+2025-10-20 00:56:14,660 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\4b978584-bc46-4b8c-952e-f9f5ed25647d\archive2
+2025-10-20 00:56:17,697 - app3.main - ERROR - Ошибка при обработке архивов: [34m[1mtrain: [0mError loading data from C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\YMLS\images\train
+See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-10-20 00:56:45,928 - app2.main - INFO - GET /api/history/23 - Request for operation details
+2025-10-20 00:56:45,939 - app2.main - INFO - GET /api/history/23 - Operation details retrieved successfully
+2025-10-20 00:56:46,026 - app2.main - INFO - GET /api/images/31 - Request for image
+2025-10-20 00:56:46,028 - app2.main - INFO - GET /api/images/31 - Image found, returning file
+2025-10-20 00:57:41,503 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:57:59,943 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:57:59,944 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:57:59,992 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:58:08,503 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 00:58:22,845 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 00:58:22,847 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 00:58:22,911 - app2.main - INFO - Listening for analysis results...
+2025-10-20 00:59:22,253 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\57278103-54c1-4f7c-8e9e-36495628dc44\archive1
+2025-10-20 00:59:22,255 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\57278103-54c1-4f7c-8e9e-36495628dc44\archive2
+2025-10-20 00:59:23,887 - app3.main - ERROR - Ошибка при обработке архивов: [34m[1mtrain: [0mError loading data from C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\YMLS\images\train
+See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-10-20 01:00:07,076 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 01:00:20,372 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 01:00:20,373 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 01:00:20,406 - app2.main - INFO - Listening for analysis results...
+2025-10-20 01:00:32,979 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\551b4bbb-ed89-4235-91d7-ef8152c778c9\archive1
+2025-10-20 01:00:32,981 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\551b4bbb-ed89-4235-91d7-ef8152c778c9\archive2
+2025-10-20 01:00:35,333 - app3.main - ERROR - Ошибка при обработке архивов: [34m[1mtrain: [0mError loading data from C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\YMLS\images\train
+See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-10-20 01:01:14,811 - app.main - INFO - POST /api/recognize/single - Start processing one image. Toolset: lightweight, File: DSCN5998.JPG
+2025-10-20 01:01:14,827 - app.main - INFO - Trust threshold set: 0.58
+2025-10-20 01:01:17,540 - app.main - INFO - POST /api/recognize/single - Successful processing. Objects found: 20
+2025-10-20 01:01:17,843 - app.main - INFO - The result was successfully sent to the message queue
+2025-10-20 01:01:17,937 - app2.main - INFO - Processing message from RabbitMQ: Operation ID -1
+2025-10-20 01:01:17,962 - app2.main - INFO - Operation -1 successfully saved to database
+2025-10-20 01:01:20,211 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 01:01:35,236 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 01:01:35,237 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 01:01:35,275 - app2.main - INFO - Listening for analysis results...
+2025-10-20 01:01:35,602 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 01:01:35,602 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 01:01:35,605 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 01:01:35,610 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 01:04:47,183 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 01:04:59,287 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 01:04:59,288 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 01:04:59,319 - app2.main - INFO - Listening for analysis results...
+2025-10-20 01:05:22,419 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 01:05:32,887 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 01:05:32,888 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 01:05:32,923 - app2.main - INFO - Listening for analysis results...
+2025-10-20 01:05:57,142 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 01:06:11,234 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 01:06:11,236 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 01:06:11,273 - app2.main - INFO - Listening for analysis results...
+2025-10-20 01:06:20,873 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 01:06:32,495 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 01:06:32,496 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 01:06:32,530 - app2.main - INFO - Listening for analysis results...
+2025-10-20 01:07:49,935 - app3.main - INFO - Путь к содержимому первого архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\d519032a-e9b0-4798-9a7a-f4ca93ba848a\archive1
+2025-10-20 01:07:49,936 - app3.main - INFO - Путь к содержимому второго архива: C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\extracted\d519032a-e9b0-4798-9a7a-f4ca93ba848a\archive2
+2025-10-20 01:07:52,391 - app3.main - ERROR - Ошибка при обработке архивов: [34m[1mtrain: [0mError loading data from C:\GitRepos\Hakaton\ApiWithThread\api\static\archives\YMLS\images\train
+See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+2025-10-20 01:08:36,294 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 01:08:36,295 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 01:08:36,305 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 01:08:36,313 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 01:08:37,350 - app2.main - INFO - GET /api/history/24 - Request for operation details
+2025-10-20 01:08:37,355 - app2.main - INFO - GET /api/history/24 - Operation details retrieved successfully
+2025-10-20 01:08:37,454 - app2.main - INFO - GET /api/images/32 - Request for image
+2025-10-20 01:08:37,465 - app2.main - INFO - GET /api/images/32 - Image found, returning file
+2025-10-20 01:08:38,762 - aio_pika.robust_connection - INFO - Connection to amqp://guest:******@localhost/ closed. Reconnecting after 5 seconds.
+2025-10-20 01:08:57,331 - app2.main - INFO - App2 starting up - creating RabbitMQ consumer task
+2025-10-20 01:08:57,332 - app2.main - INFO - Starting RabbitMQ consumer
+2025-10-20 01:08:57,355 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 01:08:57,355 - app2.main - INFO - GET /api/history/22 - Request for operation details
+2025-10-20 01:08:57,364 - app2.main - INFO - GET /api/history/22 - Operation details retrieved successfully
+2025-10-20 01:08:57,374 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 01:08:57,463 - app2.main - INFO - GET /api/images/30 - Request for image
+2025-10-20 01:08:57,465 - app2.main - INFO - GET /api/images/30 - Image found, returning file
+2025-10-20 01:08:57,471 - app2.main - INFO - Listening for analysis results...
+2025-10-20 01:08:57,523 - app2.main - INFO - GET /api/images/26 - Request for image
+2025-10-20 01:08:57,525 - app2.main - INFO - GET /api/images/26 - Image found, returning file
+2025-10-20 01:09:07,661 - app2.main - INFO - GET /api/history/17 - Request for operation details
+2025-10-20 01:09:07,665 - app2.main - INFO - GET /api/history/17 - Operation details retrieved successfully
+2025-10-20 01:09:07,771 - app2.main - INFO - GET /api/images/24 - Request for image
+2025-10-20 01:09:07,772 - app2.main - INFO - GET /api/images/24 - Image found, returning file
+2025-10-20 01:09:11,874 - app2.main - INFO - GET /api/history/15 - Request for operation details
+2025-10-20 01:09:11,877 - app2.main - INFO - GET /api/history/15 - Operation details retrieved successfully
+2025-10-20 01:09:11,929 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-20 01:09:11,931 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-20 01:09:11,968 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-20 01:09:11,971 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-20 01:09:14,793 - app2.main - INFO - GET /api/history/19 - Request for operation details
+2025-10-20 01:09:14,798 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<consume_rabbitmq() running at C:\GitRepos\Hakaton\ApiWithThread\api\app2\main.py:373> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-10-20 01:09:14,800 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-20 01:09:14,801 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-20 01:09:14,803 - app2.main - INFO - GET /api/history/19 - Operation details retrieved successfully
+2025-10-20 01:09:14,827 - app2.main - INFO - GET /api/images/21 - Request for image
+2025-10-20 01:09:14,829 - app2.main - INFO - GET /api/images/21 - Image found, returning file
+2025-10-20 01:09:59,351 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 01:14:35,208 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 01:14:35,210 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 01:14:35,226 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 01:14:35,235 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 01:18:15,462 - app2.main - INFO - GET /api/history - Request for history page 1, limit 10
+2025-10-20 01:18:15,464 - app2.main - INFO - GET /api/statistics/history - Request for history statistics
+2025-10-20 01:18:15,466 - app2.main - INFO - GET /api/history - Returned 10 history records
+2025-10-20 01:18:15,467 - app2.main - INFO - GET /api/statistics/history - Statistics retrieved successfully
+2025-10-20 01:19:05,919 - app2.main - INFO - GET /api/settings - Request to get configuration
+2025-10-20 01:19:09,204 - app2.main - INFO - GET /api/settings - Request to get configuration
