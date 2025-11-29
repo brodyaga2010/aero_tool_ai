@@ -8,23 +8,29 @@ from pathlib import Path
 import sqlite3
 import json
 import logging
+import os
 
 from .config import Settings
 from app2.DTO.DataBaseClasses import HistoryResponse, RecognitionHistorySummary
 from app2.DTO.DataBaseClasses import OperationDetailsResponse, RecognitionOperationModel, ImageRecognitionDataModel, RecognitionResult, SummaryModel, HistoryStatistics
 
-# Определяем базовую директорию проекта
-BASE_DIR = Path(__file__).parent.parent
-STATIC_DIR = BASE_DIR / "static"
+# Определяем базовую директорию из переменной окружения DATA_DIR или используем fallback
+DATA_DIR = Path(os.environ.get("DATA_DIR", Path(__file__).parent.parent))
+STATIC_DIR = DATA_DIR / "static"
 DB_DIR = STATIC_DIR / "SQLite"
-CONFIG_FILE_PATH = BASE_DIR / "config/UserConfig.json"
+CONFIG_FILE_PATH = DATA_DIR / "config/UserConfig.json"
 
-# Настройка логирования
+# Создаем необходимые директории
+STATIC_DIR.mkdir(parents=True, exist_ok=True)
+DB_DIR.mkdir(parents=True, exist_ok=True)
+(DATA_DIR / "logs").mkdir(parents=True, exist_ok=True)
+
+# Настройка логирования в общий volume
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(BASE_DIR / "logs/app2.log"),
+        logging.FileHandler(DATA_DIR / "logs/app2.log"),
         logging.StreamHandler()
     ]
 )
@@ -51,8 +57,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Монтируем статические файлы
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# Монтируем статические файлы из общего тома
+app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
 def get_db_connection():
     conn = sqlite3.connect(f"{DB_DIR}/ToolsAI.db")
@@ -365,7 +371,7 @@ async def process_message(message: aio_pika.IncomingMessage):
 # --- Консьюмер ---
 async def consume_rabbitmq():
     logger.info("Starting RabbitMQ consumer")
-    connection = await aio_pika.connect_robust("amqp://guest:guest@localhost/")
+    connection = await aio_pika.connect_robust("amqp://guest:guest@rabbitmq/")
     channel = await connection.channel()
     queue = await channel.declare_queue("analysis_results", durable=True)
     await queue.consume(process_message)

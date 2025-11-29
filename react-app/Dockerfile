@@ -16,8 +16,8 @@ RUN npm run build
 # ---- Финальный образ ----
 FROM nginx:alpine
 
-# Копируем собранный статический клиент (и, возможно, серверную часть — см. ниже!)
-COPY --from=builder /app/build/client /usr/share/nginx/html
+# Копируем собранный статический клиент (Vite создает папку dist)
+COPY --from=builder /app/dist /usr/share/nginx/html
 # (опционально) COPY nginx/nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]

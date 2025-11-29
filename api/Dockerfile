@@ -1,4 +1,4 @@
-FROM ultralytics/ultralytics:latest-cpu
+FROM ultralytics/ultralytics:latest
 
 WORKDIR /app
 
@@ -8,6 +8,9 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --no-deps -r requirements.txt
 
 COPY . .
+
+# Create directories for shared volumes
+RUN mkdir -p /app/models /app/static /app/config /app/logs /app/static/SQLite /app/static/results
 
 # Expose port
 EXPOSE 8000

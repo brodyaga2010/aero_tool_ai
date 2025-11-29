@@ -381,7 +381,7 @@ export const ToolRecognition = ({}: {}) => {
     recognitionThreshold: number
   ): "detected" | "uncertain" | "missing" => {
     const warningThreshold = Math.max(recognitionThreshold - 15, 50);
-
+    
     if (confidence >= recognitionThreshold) {
       return "detected";
     } else if (confidence >= warningThreshold) {
@@ -596,11 +596,21 @@ export const ToolRecognition = ({}: {}) => {
   // Получаем порог распознавания из операции или используем значение по умолчанию
   const recognitionThreshold = operation?.recognition || 0.5;
 
-  // Вычисляем количество найденных инструментов (с учетом порога распознавания)
-  const detectedCount =
-    currentImage?.results.filter(
-      (tool) => tool.confidence >= recognitionThreshold
-    ).length || 0;
+  // Создаем множество уникальных найденных классов инструментов
+  const detectedUniqueToolClasses = new Set(
+    currentImage?.results
+      .filter(tool => (tool.confidence * 100) >= (recognitionThreshold * 100))
+      .map(tool => {
+        // Особая обработка для Offset Phillips
+        if (tool.name.startsWith('Offset_Phillips')) {
+          return 'Offset_Phillips'; // Нормализуем имя
+        }
+        return tool.name;
+      })
+  );
+  
+  // Количество уникальных найденных классов инструментов
+  const detectedCount = detectedUniqueToolClasses.size;
 
   // Определяем общий статус на основе количества найденных инструментов
   const overallStatus = getOverallStatus(detectedCount);
@@ -609,79 +619,95 @@ export const ToolRecognition = ({}: {}) => {
   const ImagePreviewModal = () => {
     if (!isImagePreviewOpen || !currentImage || !currentImageUrl) return null;
 
-    // Получаем уникальные инструменты с цветами
-    const uniqueTools = Array.from(
+    // Получаем уникальные классы инструментов с их цветами
+    const uniqueToolClasses = Array.from(
       new Map(
-        currentImage.results.map((tool) => [
-          tool.name,
-          {
-            name: CLASS_MAP[tool.name] || tool.name,
-            color: tool.color,
-          },
-        ])
+        currentImage.results.map((tool) => {
+          // Нормализуем ключ для Offset Phillips
+          const key = tool.name.startsWith('Offset_Phillips') ? 'Offset_Phillips' : tool.name;
+          return [
+            key,
+            {
+              name: CLASS_MAP[tool.name] || tool.name,
+              color: tool.color,
+            },
+          ];
+        })
       ).values()
-    );
+    ).sort((a, b) => a.name.localeCompare(b.name));
 
     return (
-      <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
-        <div className="relative max-w-4xl max-h-full w-full">
-          {/* Легенда в левом верхнем углу */}
-          <div className="absolute top-4 left-4 z-10 bg-black/70 text-white p-3 rounded-md max-h-60 overflow-y-auto shadow-lg">
-            <h4 className="font-semibold text-sm mb-2">Легенда инструментов</h4>
-            <div className="space-y-1 text-xs">
-              {uniqueTools.map((tool, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <div
-                    className="w-3 h-3 rounded-full border border-white/30"
-                    style={{ backgroundColor: tool.color }}
-                  />
-                  <span>{tool.name}</span>
-                </div>
-              ))}
+      <div className="fixed inset-0 bg-black/90 z-50 overflow-hidden">
+        <div className="h-full w-full p-4 grid grid-cols-[280px_1fr] gap-4">
+          {/* Левая колонка с легендой */}
+          <div className="bg-black/80 rounded-md shadow-lg overflow-hidden flex flex-col">
+            <div className="p-4 border-b border-white/10">
+              <h4 className="font-semibold text-sm text-white">Легенда инструментов</h4>
+            </div>
+            <div className="flex-1 overflow-y-auto p-4">
+              <div className="space-y-2 text-xs text-white">
+                {uniqueToolClasses.map((tool, idx) => (
+                  <div key={idx} className="flex items-center gap-2">
+                    <div
+                      className="w-4 h-4 rounded-full border border-white/30 flex-shrink-0"
+                      style={{ backgroundColor: tool.color }}
+                    />
+                    <span className="leading-tight">{tool.name}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
-          <Button
-            variant="secondary"
-            size="icon"
-            className="absolute top-4 right-4 z-10"
-            onClick={() => setIsImagePreviewOpen(false)}
-          >
-            <X className="h-6 w-6" />
-          </Button>
+          {/* Правая колонка с изображением */}
+          <div className="relative flex items-center justify-center">
+            <Button 
+              variant="secondary" 
+              size="icon" 
+              className="absolute top-0 right-0 z-10" 
+              onClick={() => setIsImagePreviewOpen(false)}
+            >
+              <X className="h-6 w-6" />
+            </Button>
 
-          {operation && operation.images.length > 1 && (
-            <>
-              <Button
-                variant="secondary"
-                size="icon"
-                onClick={prevImage}
-                className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white"
-              >
-                <ChevronLeft className="h-6 w-6" />
-              </Button>
-              <Button
-                variant="secondary"
-                size="icon"
-                onClick={nextImage}
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white"
-              >
-                <ChevronRight className="h-6 w-6" />
-              </Button>
-            </>
-          )}
+            {/* Навигационные кнопки */}
+            {operation && operation.images.length > 1 && (
+              <>
+                <Button 
+                  variant="secondary" 
+                  size="icon" 
+                  onClick={prevImage} 
+                  className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white"
+                >
+                  <ChevronLeft className="h-6 w-6" />
+                </Button>
+                <Button 
+                  variant="secondary" 
+                  size="icon" 
+                  onClick={nextImage} 
+                  className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white"
+                >
+                  <ChevronRight className="h-6 w-6" />
+                </Button>
+              </>
+            )}
 
-          <img
-            src={currentImageUrl}
-            alt={currentImage.fileName}
-            className="max-w-full max-h-full object-contain"
-          />
-
-          {operation && operation.images.length > 1 && (
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-3 py-1 rounded-md text-sm">
-              {currentImageIndex + 1} из {operation.images.length}
+            {/* Изображение */}
+            <div className="w-full h-full flex items-center justify-center">
+              <img 
+                src={currentImageUrl} 
+                alt={currentImage.fileName} 
+                className="max-w-full max-h-[calc(100vh-2rem)] object-contain"
+              />
             </div>
-          )}
+
+            {/* Индикатор страниц */}
+            {operation && operation.images.length > 1 && (
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-3 py-1 rounded-md text-sm">
+                {currentImageIndex + 1} из {operation.images.length}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     );

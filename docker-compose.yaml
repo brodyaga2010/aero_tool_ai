@@ -25,10 +25,26 @@ services:
       dockerfile: Dockerfile
     expose:
       - "8000"
+    volumes:
+      # Общие модели для всех сервисов
+      - shared_models:/app/models
+      - shared_static:/app/static
+      - shared_config:/app/config
+      - shared_logs:/app/logs
     environment:
       - MESSAGE_QUEUE_URL=amqp://guest:guest@rabbitmq:5672/
+      - DATA_DIR=/app
     depends_on:
       - rabbitmq
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    ports:
+      - "8000:8000"
     networks:
       - tooltrack-net
     restart: always
@@ -36,14 +52,30 @@ services:
   app2:
     build:
       context: ./api
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile1
     command: ["python", "run2.py"]
     expose:
       - "8001"
+    volumes:
+      # Общие данные для всех сервисов
+      - shared_static:/app/static
+      - shared_config:/app/config
+      - shared_models:/app/models
+      - shared_logs:/app/logs
     environment:
       - MESSAGE_QUEUE_URL=amqp://guest:guest@rabbitmq:5672/
+      - DATA_DIR=/app
     depends_on:
       - rabbitmq
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    ports:
+      - "8001:8001"
     networks:
       - tooltrack-net
     restart: always
@@ -51,14 +83,30 @@ services:
   app3:
     build:
       context: ./api
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile2
     command: ["python", "run3.py"]
     expose:
       - "8002"
+    volumes:
+      # Общие модели и данные
+      - shared_models:/app/models
+      - shared_static:/app/static
+      - shared_config:/app/config
+      - shared_logs:/app/logs
     environment:
       - MESSAGE_QUEUE_URL=amqp://guest:guest@rabbitmq:5672/
+      - DATA_DIR=/app
     depends_on:
       - rabbitmq
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    ports:
+      - "8002:8002"
     networks:
       - tooltrack-net
     restart: always
@@ -74,6 +122,16 @@ services:
     networks:
       - tooltrack-net
     restart: always
+
+volumes:
+  shared_models:
+    driver: local
+  shared_static:
+    driver: local
+  shared_config:
+    driver: local
+  shared_logs:
+    driver: local
 
 networks:
   tooltrack-net:

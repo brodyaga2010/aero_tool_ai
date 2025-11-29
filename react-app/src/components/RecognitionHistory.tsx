@@ -88,12 +88,10 @@ const getToolStatus = (confidence: number, recognitionThreshold: number): "detec
   }
 };
 
-const getOverallStatus = (imageConfidence: number, recognitionThreshold: number): string => {
-  const warningThreshold = Math.max(recognitionThreshold - 15, 50);
-  
-  if (imageConfidence >= recognitionThreshold) {
+const getOverallStatus = (detectedCount: number): string => {
+  if (detectedCount >= 11) {
     return "Все найдены";
-  } else if (imageConfidence >= warningThreshold) {
+  } else if (detectedCount >= 8) {
     return "Требуется проверка";
   } else {
     return "Необходим ручной пересчет";
@@ -198,7 +196,7 @@ const useOperationDetails = (operationId: string | null) => {
   return { operation, loading, error };
 };
 
-// Компонент для просмотра фото в полноэкранном режиме
+// Компонент для просмотра фото в полноэкранном режиме с легендой
 const ImagePreviewModal = ({ 
   imageId, 
   isOpen, 
@@ -206,7 +204,8 @@ const ImagePreviewModal = ({
   imageNumber,
   totalImages,
   onNext,
-  onPrev
+  onPrev,
+  results
 }: { 
   imageId: string; 
   isOpen: boolean; 
@@ -215,6 +214,7 @@ const ImagePreviewModal = ({
   totalImages: number;
   onNext: () => void;
   onPrev: () => void;
+  results: any[];
 }) => {
   const { imageData, loading: imageLoading, error: imageError } = useImageLoader(imageId);
 
@@ -237,57 +237,115 @@ const ImagePreviewModal = ({
 
   if (!isOpen) return null;
 
+  // Получаем уникальные инструменты с цветами
+  const uniqueTools = Array.from(
+    new Map(
+      results.map((tool) => {
+        // Используем нормализованное имя как ключ для Offset Phillips
+        const key = tool.name.startsWith('Offset_Phillips') ? 'Offset_Phillips' : tool.name;
+        return [
+          key,
+          {
+            name: CLASS_MAP[tool.name] || tool.name,
+            color: tool.color,
+          },
+        ];
+      })
+    ).values()
+  );
+
   return (
-    <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
-      <div className="relative max-w-4xl max-h-full w-full">
-        <Button variant="secondary" size="icon" className="absolute top-4 right-4 z-10" onClick={onClose}>
-          <X className="h-6 w-6" />
-        </Button>
-        
-        {totalImages > 1 && (
-          <>
-            <Button variant="secondary" size="icon" onClick={onPrev} className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white">
-              <ChevronLeft className="h-6 w-6" />
-            </Button>
-            <Button variant="secondary" size="icon" onClick={onNext} className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white">
-              <ChevronRight className="h-6 w-6" />
-            </Button>
-          </>
-        )}
-        
-        {imageLoading ? (
-          <div className="flex items-center justify-center h-64 text-white">
-            <div className="text-center">
-              <div className="h-12 w-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
-              <p>Загрузка изображения...</p>
+<div className="fixed inset-0 bg-black/90 z-50 overflow-hidden">
+  <div className="h-full w-full p-4 grid grid-cols-[280px_1fr] gap-4">
+    {/* Левая колонка с легендой */}
+    <div className="bg-black/80 rounded-md shadow-lg overflow-hidden flex flex-col">
+      <div className="p-4 border-b border-white/10">
+        <h4 className="font-semibold text-sm text-white">Легенда инструментов</h4>
+      </div>
+      <div className="flex-1 overflow-y-auto p-4">
+        <div className="space-y-2 text-xs text-white">
+          {uniqueTools.sort((a, b) => a.name.localeCompare(b.name)).map((tool, idx) => (
+            <div key={idx} className="flex items-center gap-2">
+              <div
+                className="w-4 h-4 rounded-full border border-white/30 flex-shrink-0"
+                style={{ backgroundColor: tool.color }}
+              />
+              <span className="leading-tight">{tool.name}</span>
             </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    {/* Правая колонка с изображением */}
+    <div className="relative flex items-center justify-center">
+      <Button 
+        variant="secondary" 
+        size="icon" 
+        className="absolute top-0 right-0 z-10" 
+        onClick={onClose}
+      >
+        <X className="h-6 w-6" />
+      </Button>
+
+      {/* Навигационные кнопки */}
+      {totalImages > 1 && (
+        <>
+          <Button 
+            variant="secondary" 
+            size="icon" 
+            onClick={onPrev} 
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white"
+          >
+            <ChevronLeft className="h-6 w-6" />
+          </Button>
+          <Button 
+            variant="secondary" 
+            size="icon" 
+            onClick={onNext} 
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white"
+          >
+            <ChevronRight className="h-6 w-6" />
+          </Button>
+        </>
+      )}
+
+      {/* Изображение */}
+      <div className="w-full h-full flex items-center justify-center">
+        {imageLoading ? (
+          <div className="text-center text-white">
+            <div className="h-12 w-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
+            <p>Загрузка изображения...</p>
           </div>
         ) : imageError ? (
-          <div className="flex items-center justify-center h-64 text-white">
-            <div className="text-center">
-              <ImageIcon className="h-16 w-16 mx-auto mb-3 opacity-50" />
-              <p>Ошибка загрузки изображения</p>
-              <p className="text-sm text-muted-foreground mt-2">{imageError}</p>
-            </div>
+          <div className="text-center text-white">
+            <ImageIcon className="h-16 w-16 mx-auto mb-3 opacity-50" />
+            <p>Ошибка загрузки изображения</p>
+            <p className="text-sm text-muted-foreground mt-2">{imageError}</p>
           </div>
         ) : imageData ? (
-          <img src={imageData} alt={`Просмотр изображения ${imageNumber}`} className="max-w-full max-h-full object-contain" />
+          <img 
+            src={imageData} 
+            alt={`Просмотр изображения ${imageNumber}`} 
+            className="max-w-full max-h-[calc(100vh-2rem)] object-contain"
+          />
         ) : (
-          <div className="flex items-center justify-center h-64 text-white">
-            <div className="text-center">
-              <ImageIcon className="h-16 w-16 mx-auto mb-3 opacity-50" />
-              <p>Изображение не загружено</p>
-            </div>
-          </div>
-        )}
-        
-        {totalImages > 1 && (
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-3 py-1 rounded-md text-sm">
-            {imageNumber} из {totalImages}
+          <div className="text-center text-white">
+            <ImageIcon className="h-16 w-16 mx-auto mb-3 opacity-50" />
+            <p>Изображение не загружено</p>
           </div>
         )}
       </div>
+
+      {/* Индикатор страниц */}
+      {totalImages > 1 && (
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-3 py-1 rounded-md text-sm">
+          {imageNumber} из {totalImages}
+        </div>
+      )}
     </div>
+  </div>
+</div>
   );
 };
 
@@ -305,13 +363,22 @@ const DetailedHistoryView = ({ operation }: DetailedHistoryViewProps) => {
   // Получаем порог распознавания из операции
   const recognitionThreshold = getSafeRecognitionThreshold(operation.recognition);
 
-  // Считаем количество обнаруженных инструментов с учетом порога
-  const detectedCount = currentImage.results.filter(tool => 
-    (tool.confidence * 100) >= recognitionThreshold
-  ).length;
+  // Считаем количество уникальных обнаруженных инструментов с учетом порога
+  const detectedUniqueTools = new Set(
+    currentImage.results
+      .filter(tool => (tool.confidence * 100) >= recognitionThreshold)
+      .map(tool => {
+        // Особая обработка для Offset Phillips
+        if (tool.name.startsWith('Offset_Phillips')) {
+          return 'Offset_Phillips'; // Нормализуем имя
+        }
+        return tool.name;
+      })
+  );
+  const detectedCount = detectedUniqueTools.size;
 
-  // Определяем общий статус на основе порога
-  const overallStatus = getOverallStatus(currentImage.imageConfidence * 100, recognitionThreshold);
+  // Определяем общий статус на основе количества уникальных найденных инструментов
+  const overallStatus = getOverallStatus(detectedCount);
 
   const getStatusIcon = (status: string) => {
     switch (status) {
@@ -547,6 +614,7 @@ const DetailedHistoryView = ({ operation }: DetailedHistoryViewProps) => {
         totalImages={operation.images.length}
         onNext={nextImage}
         onPrev={prevImage}
+        results={currentImage.results}
       />
     </>
   );

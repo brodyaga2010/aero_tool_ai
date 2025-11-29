@@ -19,6 +19,7 @@ class YOLODetector:
             confidence_threshold: порог уверенности
         """
         self.confidence_threshold = confidence_threshold
+        # Инициализируем обе модели как YOLO
         self.models = [YOLO(model_path1), YOLO(model_path2)]
         
         for model in self.models:
@@ -71,8 +72,9 @@ class YOLODetector:
         detections = []
         for det in final_detections:
             cls = det["class"]
-            color = self.class_colors.get(cls, "red")
-
+            color = self.class_colors.get(cls, "#000000")
+            if det['confidence'] < 0.50:
+                continue
             detections.append({
                 "bbox": det["bbox"],
                 "confidence": det["confidence"],

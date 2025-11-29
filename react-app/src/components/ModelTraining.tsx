@@ -63,20 +63,12 @@ export const ModelTrainingComponent = () => {
   const mockTrainingHistory = [
     {
       id: "train_001",
-      toolset: "Базовый набор",
+      toolset: "Облегченный набор инструмента для ЦОТО УФ RRJ/737/32S",
       status: "completed",
       progress: 100,
       message: "Дообучение завершено успешно",
-      startTime: "2024-01-15T10:30:00Z",
-      endTime: "2024-01-15T11:45:00Z"
-    },
-    {
-      id: "train_002",
-      toolset: "Строительные инструменты",
-      status: "training",
-      progress: 65,
-      message: "Обучение на эпохе 15 из 25",
-      startTime: "2024-01-16T09:15:00Z"
+      startTime: "2025-10-19T10:30:00Z",
+      endTime: "2024-10-19T11:45:00Z"
     }
   ];
 
@@ -115,13 +107,27 @@ export const ModelTrainingComponent = () => {
 
       const data = await response.json();
       
-      setTrainingStatus({
-        status: "training",
+      const newTrainingStatus = {
+        status: "training" as const,
         progress: 10,
         message: "Начато дообучение модели",
         trainingId: data.trainingId,
         startTime: new Date().toISOString()
-      });
+      };
+      
+      setTrainingStatus(newTrainingStatus);
+
+      // Добавляем новую запись в историю
+      const newTrainingRecord = {
+        id: data.trainingId,
+        toolset: TOOLSETS.find(t => t.id === toolsetName)?.name || toolsetName,
+        status: "training",
+        progress: 10,
+        message: "Начато дообучение модели",
+        startTime: new Date().toISOString()
+      };
+      
+      setTrainingHistory(prevHistory => [newTrainingRecord, ...prevHistory]);
 
       toast.success("Данные успешно отправлены на дообучение");
       
@@ -149,20 +155,48 @@ export const ModelTrainingComponent = () => {
 
       const data = await response.json();
       
-      setTrainingStatus(prev => ({
-        ...prev,
-        progress: data.progress || prev.progress,
-        message: data.message || prev.message,
-        status: data.status || prev.status
-      }));
+      const updatedStatus = {
+        ...trainingStatus,
+        progress: data.progress || trainingStatus.progress,
+        message: data.message || trainingStatus.message,
+        status: data.status || trainingStatus.status
+      };
+
+      setTrainingStatus(updatedStatus);
+
+      // Обновляем запись в истории
+      setTrainingHistory(prevHistory => 
+        prevHistory.map(record => 
+          record.id === trainingId ? {
+            ...record,
+            status: data.status || record.status,
+            progress: data.progress || record.progress,
+            message: data.message || record.message
+          } : record
+        )
+      );
 
       // Если обучение завершено, останавливаем опрос
       if (data.status === "completed" || data.status === "error") {
+        const endTime = new Date().toISOString();
+        
         setTrainingStatus(prev => ({
           ...prev,
-          endTime: new Date().toISOString(),
+          endTime,
           progress: data.status === "completed" ? 100 : prev.progress
         }));
+
+        // Обновляем запись в истории с финальным статусом
+        setTrainingHistory(prevHistory => 
+          prevHistory.map(record => 
+            record.id === trainingId ? {
+              ...record,
+              status: data.status,
+              progress: data.status === "completed" ? 100 : record.progress,
+              endTime
+            } : record
+          )
+        );
         
         if (data.status === "completed") {
           toast.success("Дообучение модели завершено успешно!");

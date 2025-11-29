@@ -13,20 +13,27 @@ import logging
 from app3.dataset import create_yolo_dataset_with_yaml
 from app3.train import train_yolo_with_tuning
 
-# Определяем базовую директорию проекта
-BASE_DIR = Path(__file__).parent.parent
+# Определяем базовую директорию проекта. Если docker-compose монтирует общий
+# том в /app, то можно настроить DATA_DIR=/app в compose. Иначе используем проектную структуру.
+DATA_DIR = Path(os.environ.get("DATA_DIR", Path(__file__).parent.parent))
+
+# Ensure DATA_DIR is a Path pointing to a directory root that contains static, models, config, logs
+BASE_DIR = DATA_DIR
 STATIC_DIR = BASE_DIR / "static"
 ARCHIVES_DIR = STATIC_DIR / "archives"
 UPLOAD_DIR = ARCHIVES_DIR / "uploads"
 EXTRACTED_DIR = ARCHIVES_DIR / "extracted"
 YMLS_DIR = ARCHIVES_DIR / "YMLS"
 
-# Настройка логирования
+# Настройка логирования: пишем в DATA_DIR/logs/app3.log (shared volume)
+logs_path = BASE_DIR / "logs"
+logs_path.mkdir(parents=True, exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(BASE_DIR / "app2.log"),
+        logging.FileHandler(logs_path / "app3.log"),
         logging.StreamHandler()
     ]
 )
@@ -50,8 +57,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Монтируем статические файлы
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# Монтируем статические файлы из общего тома
+app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
 @app.get("/")
 async def read_root():
@@ -86,13 +93,15 @@ async def extract_two_archives(
     # Проверяем расширения файлов
     allowed_extensions = ['.zip', '.tar', '.tar.gz', '.tgz']
     
-    file1_ext = Path(archive1.filename).suffix.lower()
-    file2_ext = Path(archive2.filename).suffix.lower()
+    file1_name = getattr(archive1, 'filename', '') or ''
+    file2_name = getattr(archive2, 'filename', '') or ''
+    file1_ext = Path(file1_name).suffix.lower()
+    file2_ext = Path(file2_name).suffix.lower()
     
     # Для tar.gz файлов проверяем полное расширение
-    if archive1.filename.lower().endswith('.tar.gz'):
+    if file1_name.lower().endswith('.tar.gz'):
         file1_ext = '.tar.gz'
-    if archive2.filename.lower().endswith('.tar.gz'):
+    if file2_name.lower().endswith('.tar.gz'):
         file2_ext = '.tar.gz'
     
     if file1_ext not in allowed_extensions or file2_ext not in allowed_extensions:
@@ -114,51 +123,51 @@ async def extract_two_archives(
     file1_path = None
     file2_path = None
     
+
     try:
         # Сохраняем первый архив
-        file1_path = UPLOAD_DIR / f"archive1_{upload_uuid}_{archive1.filename}"
+        file1_path = UPLOAD_DIR / f"archive1_{upload_uuid}_{file1_name}"
         with open(file1_path, "wb") as buffer:
             shutil.copyfileobj(archive1.file, buffer)
-        
+
         # Сохраняем второй архив
-        file2_path = UPLOAD_DIR / f"archive2_{upload_uuid}_{archive2.filename}"
+        file2_path = UPLOAD_DIR / f"archive2_{upload_uuid}_{file2_name}"
         with open(file2_path, "wb") as buffer:
             shutil.copyfileobj(archive2.file, buffer)
-        
+
         # Распаковываем архивы в соответствующие папки
         archive1_path.mkdir(exist_ok=True)
         archive2_path.mkdir(exist_ok=True)
-        
+
         success1 = extract_archive(str(file1_path), str(archive1_path))
         success2 = extract_archive(str(file2_path), str(archive2_path))
-        
+
         if not success1 or not success2:
             raise HTTPException(
-                status_code=400, 
+                status_code=400,
                 detail="Ошибка при распаковке архивов. Проверьте целостность файлов."
             )
-        
+
         # Получаем список распакованных файлов для каждого архива
         archive1_files = []
         archive2_files = []
-        
+
         for root, dirs, files in os.walk(archive1_path):
             for file in files:
                 relative_path = os.path.relpath(os.path.join(root, file), archive1_path)
                 archive1_files.append(relative_path)
-        
+
         for root, dirs, files in os.walk(archive2_path):
             for file in files:
                 relative_path = os.path.relpath(os.path.join(root, file), archive2_path)
                 archive2_files.append(relative_path)
-        
+
         path_to_archive1_content = str(archive1_path)
         path_to_archive2_content = str(archive2_path)
-        
+
         # Логируем пути для отладки
         logger.info(f"Путь к содержимому первого архива: {path_to_archive1_content}")
         logger.info(f"Путь к содержимому второго архива: {path_to_archive2_content}")
-        
 
         # Пример использования
         class_dict = {
@@ -179,10 +188,11 @@ async def extract_two_archives(
 
         yml_dir = YMLS_DIR / "dataset.yaml"
 
-        train_yolo_with_tuning(yml_dir, "model1_1.pt", 5, 5, 16, "app3/NewModels")
+        # train expects str paths
+        # Используем директорию models для сохранения новых моделей
+        train_yolo_with_tuning(str(yml_dir), "model1_1.pt", 5, 5, 16, str(BASE_DIR / "models"))
 
-
-        return { "status": "success" }
+        return {"status": "success"}
     
     except Exception as e:
         # Очищаем в случае ошибки

@@ -19,18 +19,23 @@ from .config import Settings
 
 from app2.DTO.DataBaseClasses import RecognitionOperationModel, ImageRecognitionDataModel, RecognitionResult, SummaryModel
 
-# Определяем базовую директорию проекта
-BASE_DIR = Path(__file__).parent.parent
-STATIC_DIR = BASE_DIR / "static"
+# Определяем базовую директорию из переменной окружения DATA_DIR или используем fallback
+DATA_DIR = Path(os.environ.get("DATA_DIR", Path(__file__).parent.parent))
+STATIC_DIR = DATA_DIR / "static"
 RESULTS_DIR = STATIC_DIR / "results"
-CONFIG_FILE_PATH = BASE_DIR / "config/UserConfig.json"
+CONFIG_FILE_PATH = DATA_DIR / "config/UserConfig.json"
 
-# Настройка логирования
+# Создаем необходимые директории
+STATIC_DIR.mkdir(parents=True, exist_ok=True)
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+(DATA_DIR / "logs").mkdir(parents=True, exist_ok=True)
+
+# Настройка логирования в общий volume
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(BASE_DIR / "logs/app.log"),
+        logging.FileHandler(DATA_DIR / "logs/app.log"),
         logging.StreamHandler()
     ]
 )
@@ -51,8 +56,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Монтируем статические файлы
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# Монтируем статические файлы из общего тома
+app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
 # Инициализация детектора YOLO
 settings = Settings()
